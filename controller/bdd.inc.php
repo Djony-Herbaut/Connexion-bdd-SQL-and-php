@@ -12,7 +12,7 @@
                          dbname=vente_prod','root','', 
                          array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8', $_pdo_options));
          
-                         $_response = $_bdd->query('SELECT * FROM `produits` WHERE 1 ORDER BY id ASC LIMIT 10 ');
+                         $_response = $_bdd->query('SELECT * FROM `prod` WHERE 1 ORDER BY id ASC LIMIT 10 ');
                         
                         
    
